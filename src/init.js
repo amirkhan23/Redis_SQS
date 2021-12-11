@@ -15,7 +15,6 @@ let redisInstanceSub = new Subscriber("Redis SQS-Subscribe");
      */
 const init = async (config) => {
     await redisInstance.initialise(config);
-    console.log("1111")
     await redisInstancePub.initialise(config);
     await redisInstanceSub.initialise(config);
 }
