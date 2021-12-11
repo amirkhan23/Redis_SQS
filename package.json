@@ -1,0 +1,29 @@
+{
+  "name": "redis_sqs",
+  "version": "1.0.0",
+  "description": "redis sqs is alternate of aws sqs and rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirkhan23/Redis_SQS.git"
+  },
+  "keywords": [
+    "redis",
+    "sqs",
+    "message",
+    "queue"
+  ],
+  "author": "Amir Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amirkhan23/Redis_SQS/issues"
+  },
+  "homepage": "https://github.com/amirkhan23/Redis_SQS#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "redis": "^3.1.2"
+  }
+}
